@@ -18,7 +18,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                {this.state.astros.map(person => person.name)}
+                {this.state.astros.map(person => <p>{person.name}</p>)}
             </div>
         );
     }
